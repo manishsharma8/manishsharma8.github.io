@@ -1,13 +1,8 @@
-/**
- * @type {import('next').NextConfig}
- */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: '/2048-in-react',
   output: 'export',
-  images: {
-    loader: 'akamai',
-    path: '',
-  },
-  assetPrefix: './',
+  reactStrictMode: true,
 };
 
 export default nextConfig;
