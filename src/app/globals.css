@@ -21,3 +21,7 @@
     text-wrap: balance;
   }
 }
+
+.external-link {
+  @apply font-medium text-slate-200 hover:text-cyan-300 focus-visible:text-cyan-300 hover:underline underline-offset-4;
+}
