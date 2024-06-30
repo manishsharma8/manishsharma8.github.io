@@ -12,9 +12,9 @@ export const PROFILE = {
 } as const;
 
 export const NAV_LINKS: NavLink[] = [
-  { name: "About", href: "#about" },
-  { name: "Experience", href: "#experience" },
-  { name: "Projects", href: "#projects" },
+  { name: "About", href: "#about", section: "about" },
+  { name: "Experience", href: "#experience", section: 'experience' },
+  { name: "Projects", href: "#projects", section: "projects" },
 ];
 
 export const SOCIALS: SocialLink[] = [

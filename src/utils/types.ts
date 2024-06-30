@@ -1,8 +1,10 @@
+import { Route } from "next";
 import { Icon } from "@phosphor-icons/react";
 
 interface NavLink {
   name: string;
-  href: string;
+  href: Route;
+  section: 'about' | 'experience' | 'projects'
 }
 
 interface SocialLink {
