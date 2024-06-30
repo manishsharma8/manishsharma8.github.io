@@ -3,7 +3,7 @@ import {
   LinkedinLogo,
   XLogo,
 } from "@phosphor-icons/react/dist/ssr";
-import { NavLink, SocialLink } from "./types";
+import { Experience, NavLink, SocialLink } from "./types";
 
 export const PROFILE = {
   name: "Manish Sharma",
@@ -35,7 +35,7 @@ export const SOCIALS: SocialLink[] = [
   },
 ];
 
-export const EXPERIENCES = [
+export const EXPERIENCES: Experience[] = [
   {
     period: 'Jun 2023 - Present',
     role: 'Software Engineer',

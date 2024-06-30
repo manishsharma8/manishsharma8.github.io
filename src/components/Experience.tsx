@@ -27,7 +27,7 @@ const Experience: React.FC = () => {
               <h3 className="font-medium leading-snug text-slate-200">
                 <Link
                   href={experience.company.website}
-                  className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                  className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-cyan-300 focus-visible:text-cyan-300  group/link text-base"
                 >
                   <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block" />
                   <span className="flex items-center">
@@ -44,7 +44,7 @@ const Experience: React.FC = () => {
                 {experience.technologies.map((technology) => (
                   <li
                     key={technology}
-                    className="rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 "
+                    className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium leading-5 text-cyan-300 "
                   >
                     {technology}
                   </li>

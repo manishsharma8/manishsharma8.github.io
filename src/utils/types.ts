@@ -13,4 +13,15 @@ interface SocialLink {
   ariaLabel?: string;
 }
 
-export type { NavLink, SocialLink };
+interface Experience {
+  period: string;
+  role: string;
+  company: {
+    name: string;
+    website: Route;
+  };
+  description: string;
+  technologies: string[];
+}
+
+export type { NavLink, SocialLink, Experience };
