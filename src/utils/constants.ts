@@ -20,14 +20,17 @@ export const NAV_LINKS: NavLink[] = [
 export const SOCIALS: SocialLink[] = [
   {
     Icon: LinkedinLogo,
-    link: "https://www.linkedin.com/in/manishsharma8301/",
+    ariaLabel: 'Linkedin',
+    link: 'https://www.linkedin.com/in/manishsharma8301/',
   },
   {
     Icon: GithubLogo,
-    link: "https://github.com/manishsharma8",
+    ariaLabel: 'Github',
+    link: 'https://github.com/manishsharma8',
   },
   {
     Icon: XLogo,
-    link: "https://x.com/manish832001",
+    ariaLabel: 'Twitter',
+    link: 'https://twitter.com/manish832001',
   },
 ];

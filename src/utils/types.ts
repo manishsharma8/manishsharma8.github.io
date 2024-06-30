@@ -10,6 +10,7 @@ interface NavLink {
 interface SocialLink {
   Icon: Icon;
   link: string;
+  ariaLabel?: string;
 }
 
 export type { NavLink, SocialLink };
