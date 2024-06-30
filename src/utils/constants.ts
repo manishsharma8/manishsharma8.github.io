@@ -3,7 +3,9 @@ import {
   LinkedinLogo,
   XLogo,
 } from "@phosphor-icons/react/dist/ssr";
-import { Experience, NavLink, SocialLink } from "./types";
+import { Experience, NavLink, Project, SocialLink } from "./types";
+import Twella from "@/assets/twella.png"
+import PocketURL from '@/assets/pocket-url.png';
 
 export const PROFILE = {
   name: "Manish Sharma",
@@ -82,5 +84,24 @@ export const EXPERIENCES: Experience[] = [
       Scrum methodology to manage project backlogs, achieving an early beta release
       and expanding the waitlist from 0 to 16,000 members in one month.`,
     technologies: ['Spring Boot', 'React', 'Typescript', 'Mixpanel'],
+  },
+];
+
+export const PROJECTS: Project[] = [
+  {
+    title: 'Twella',
+    image: Twella,
+    website: 'https://github.com/manishsharma8/Twella',
+    technologies: ['Next.js', 'Tailwind', 'Twitter Developer API'],
+    description: `Capture and share twitter posts as beautiful images. Utilized
+    Twitter Developer API to fetch tweets and profile data through user entered tweet url`,
+  },
+  {
+    title: 'Pocket URL',
+    image: PocketURL,
+    website: 'https://github.com/manishsharma8/Pocket-Url',
+    technologies: ['Typescript', 'Nextjs', 'Express', 'Redis', 'Graphql', 'Postgresql'],
+    description: `A simple and easy full stack URL Shortener. Create short urls with
+    custom aliases and easily track your url visits.`,
   },
 ];

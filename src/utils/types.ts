@@ -1,5 +1,6 @@
 import { Route } from "next";
 import { Icon } from "@phosphor-icons/react";
+import { StaticImageData } from "next/image";
 
 interface NavLink {
   name: string;
@@ -24,4 +25,12 @@ interface Experience {
   technologies: string[];
 }
 
-export type { NavLink, SocialLink, Experience };
+interface Project {
+  image: StaticImageData;
+  title: string;
+  website: Route;
+  description: string;
+  technologies: string[],
+}
+
+export type { NavLink, SocialLink, Experience, Project };
